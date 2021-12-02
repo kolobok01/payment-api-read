@@ -11,6 +11,7 @@ public class Application {
   }
 
  // TODO implement sampleFunc() this is an append to the note
+
   public String sampleFunc() {
     return "";
   }
