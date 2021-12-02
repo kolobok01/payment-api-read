@@ -4,10 +4,9 @@ metadata:
   name: "payment-api-read"
   description: ""
   annotations:
-    backstage.io/kubernetes-id: payments
-  annotations:
     github.com/project-slug: kolobok01/payment-api-read
     backstage.io/techdocs-ref: dir:.
+    backstage.io/kubernetes-id: payments
 spec:
   type: service
   lifecycle: experimental
