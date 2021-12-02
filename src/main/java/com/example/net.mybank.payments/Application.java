@@ -10,7 +10,8 @@ public class Application {
     SpringApplication.run(Application.class, args);
   }
 
- // TODO implement sampleFunc()
+ // TODO implement sampleFunc() this is an append to the note
+
   public String sampleFunc() {
     return "";
   }
