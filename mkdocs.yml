@@ -1,0 +1,8 @@
+site_name: "payment-api-read"
+site_description: ""
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core
