@@ -5,7 +5,7 @@ metadata:
   description: Payment api for gRPC
 spec:
   type: grpc
-  lifecycle: deprecated
+  lifecycle: production
   owner: team-b
   definition: |
     // Copyright 2015 gRPC authors.
