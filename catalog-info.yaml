@@ -3,6 +3,8 @@ kind: Component
 metadata:
   name: "payment-api-read"
   description: ""
+  tags:
+    - app:10001
   annotations:
     github.com/project-slug: kolobok01/payment-api-read
     backstage.io/techdocs-ref: dir:.
