@@ -3,6 +3,9 @@ kind: API
 metadata:
   name: payment-api-read
   description: Payment api for gRPC
+  tags:
+   - payments
+   - id:1001
 spec:
   type: grpc
   lifecycle: production
