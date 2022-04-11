@@ -1,0 +1,4 @@
+Build base image for corda enterprise into a compliant image that is secured with the WF Hardened Containers Cybersecurity Requirements.
+Integrated enterprise EPL to build custom corda nodes based on base image
+Created mechanism to build and package cordapps flows  into an immutable init container for subsequent use with corda nodes.
+Build and packaged corda deployment manifests for kubernetes 
