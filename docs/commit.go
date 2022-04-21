@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"github.com/go-git/go-git/v5/plumbing"
 	"io/ioutil"
 	"math/rand"
 	"os"
@@ -56,13 +55,6 @@ func main() {
 	end := time.Date(2021, 07, 7, 1, 0, 0, 0, time.UTC)
 	fmt.Println(start.Format("2006-01-02"), "-", end.Format("2006-01-02"))
 	rand.Seed(time.Now().UnixNano())
-	r, err := git.PlainOpen(directory)
-	CheckIfError(err)
-	headRef, err := r.Head()
-	CheckIfError(err)
-	ref := plumbing.NewHashReference("refs/heads/feature/cenm-v1", headRef.Hash())
-	err = r.Storer.SetReference(ref)
-	CheckIfError(err)
 	for rd := rangeDate(start, end); ; {
 		date := rd()
 		for i := 0; i < retNumOfItterations(); i++ {
@@ -71,6 +63,8 @@ func main() {
 			}
 			date = addRandomTime(date, 100)
 			// Opens an already existing repository.
+			r, err := git.PlainOpen(directory)
+			CheckIfError(err)
 
 			w, err := r.Worktree()
 			CheckIfError(err)
@@ -78,7 +72,7 @@ func main() {
 			// ... we need a file to commit so let's create a new file inside of the
 			// worktree of the project using the go standard library.
 			Info("echo \"hello world!\" > example-git-file")
-			filename := filepath.Join(directory, "corda-util.go")
+			filename := filepath.Join(directory, "log.txt")
 			if _, err := os.Stat(filename); os.IsNotExist(err) {
 				err = ioutil.WriteFile(filename, []byte("hello world!"), 0644)
 				CheckIfError(err)
@@ -86,15 +80,13 @@ func main() {
 
 			// Adds the new file to the staging area.
 			Info("git add example-git-file")
-			_, err = w.Add("corda-util.go")
+			_, err = w.Add("log.txt")
 			CheckIfError(err)
 			// We can verify the current status of the worktree using the method Status.
 			Info("git status --porcelain")
 			status, err := w.Status()
-			err = w.Checkout(&git.CheckoutOptions{
-				Branch: plumbing.NewHashReference("refs/heads/feature/cenm-v1", headRef.Hash()).Name(),
-			})
 			CheckIfError(err)
+
 			fmt.Println(status)
 
 			// Commits the current staging area to the repository, with the new file
