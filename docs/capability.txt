@@ -1,0 +1,18 @@
+# WF Wallet Service
+ * The safe spot to manage holdings
+# WF Bridge Hub
+ * Bridge assets cross-chain, and obtain yield for providing   liquidity, liquidity aggregation
+
+# Mint - Native WF token capability 
+ * Supports the minting of wf coin
+# Validator
+ * Central interface to become an established mainnet
+validator and monitor
+# Exchange
+ * Supports the trading of WF tokes and is closely tied
+with the Bridge Hub
+# Stake
+ * Earn yield and transaction fees for staking 
+
+# Liquid Stake
+ * Tokenized liquidity & contribution incentives
