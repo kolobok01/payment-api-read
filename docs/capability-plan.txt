@@ -1,0 +1,30 @@
+# Idenitity and Key Management
+  * Wells Fargo Custodial Wallet Service Layer
+    * CloudHSM (KMS)
+    * HSM
+    * Multi Party Compute (MPC)
+    * Hybrid HSM 
+    * Cold/Hot Storage
+# Network Operations, Mannagement and Interoparability 
+  * Decentralized Cloud 
+    * Crypto Staking
+    * Blockchain Node Management
+  * Message and Notifications 
+    * Cross Chain
+    * On Chain
+  * Data Avalability - Oracles
+  * Exchange Integration - Limit Order Book
+    * Buy
+    * Sell
+    * Swap
+    * Trade
+# Smart Contracts
+  * Chain Relay (Bridge)
+    * Programmable Assets
+    * Programmable Aggrements
+
+# Risk & Regulations
+  * OFAC
+  * KYC
+  * AML
+  
