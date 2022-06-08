@@ -16,3 +16,18 @@ with the Bridge Hub
 
 # Liquid Stake
  * Tokenized liquidity & contribution incentives
+
+
+
+
+
+Lending protocols in DeFI are fast and secure
+
+- Consider how long it would take a person to borrow any amount of money from WF at any given moment. 
+  After COB on a weekday? At 3:00 AM on a Saturday? Sunday morning? Independence Day? Christmas Eve? At 7:00 PM on Thanksgiving Day?
+
+- Given perfect conditions, it would still take days, if not weeks for a person to secure a loan. 
+
+- How many personnel would a single loan application go through prior to being approved? How many personnel are required to watch over the loan? How much does this cost WF?
+
+- On the other hand, borrowing assets in DeFi is quick, simple, and painless. It can be done at any time, any day. It does not require anyone to approve or keep watch over all the open positions. Everything is automated and secure.
