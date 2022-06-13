@@ -23,4 +23,7 @@ Questions for Product People
 
     - How would an asset such as a deed to a house represented by an NFT be treated. For example, liquidating 20% of a position in order to make a position healthy again. How would the liquidator receive 20% of an asset?
 
+- Transparency ==> Smart Contract is open & available
+
+    - Will we make the lending protocol publicly available? Does this imply adequate transparency for regulators?
 
