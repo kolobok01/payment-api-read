@@ -1,0 +1,34 @@
+Questions for Product People
+----------------------------
+
+- Who and what will serve as the "oracles"?
+
+    - Matt mentioned WF being the sole oracle, at least initially.
+
+- How do we sell off collateral?
+
+    - Matt mentioned a secondary marketplace for collateral, but can we elaborate on what this entails? Who are the buyers?
+
+    - Should we incentivize individuals/organizations to purchase collateral to keep out marketplace solvent?
+
+- Should LPs receive the collateral directly, or should collateral first be sold-off and LPs receive original form of liquidity?
+
+    - Matt mentioned that LPs may not want to receive collateral directly, so what would need to be done to allow LPs to withdraw their deposits?
+
+- What will the health factors, amongst other parameters, (e.g., LTV) be for various assets? 
+
+    - Matt mentioned that a loan such as a mortgage would not necessarily be liquidated just because the value of the underlying asset fell. In       this case, non-payment would have a greater effect on the health of the position. Can we receive the risk models for at least one asset class?
+
+- Dividing an asset into fractional components
+
+    - How would an asset such as a deed to a house represented by an NFT be treated. For example, liquidating 20% of a position in order to make a position healthy again. How would the liquidator receive 20% of an asset?
+
+
+
+
+
+
+
+
+Message Saveliy
+
