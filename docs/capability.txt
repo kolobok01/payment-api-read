@@ -31,3 +31,19 @@ Lending protocols in DeFI are fast and secure
 - How many personnel would a single loan application go through prior to being approved? How many personnel are required to watch over the loan? How much does this cost WF?
 
 - On the other hand, borrowing assets in DeFi is quick, simple, and painless. It can be done at any time, any day. It does not require anyone to approve or keep watch over all the open positions. Everything is automated and secure.
+
+
+
+
+Leverage  secure tools and infrastructure for Web3 provided by Google Cloud 
+
+* Protect digital assets end to end (HSM/KMS)
+    * Use Google Cloud KMS to manage encryption keys and sign transactions using hardware security modules (HSMs). Cloud HSM is a cloud-hosted Hardware Security Module (HSM) service that allows you to host encryption keys and perform cryptographic operations in a cluster of FIPS 140-2 Level 3 certified HSMs. 
+* Get real-time node and network insights  (BigQuery)
+  * Many blockchains are already indexed in BigQuery. Beyond quality control and auditing applications, presenting cryptocurrency in a traditional format enables integration with other financial data management systems. We plant to levarage this services for the following goals.
+   *  Balance queries demonstrating preservation of value(<Metrics>)
+   *  Understanding miner economics (<Metrics>)
+   * Understanding how often  addresses are reused  (<AML/Metrics>)
+   * Address classification (<AML>)\
+
+* Get to market faster
