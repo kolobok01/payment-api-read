@@ -24,3 +24,13 @@
 - Transparency ==> Smart Contract is open & available
 
     - Will we make the lending protocol publicly available? Does this imply adequate transparency for regulators?
+
+
+
+
+- Working on the ETH-HSM demo for Chintan et al.
+    - Look into the best ETH RPC client for our requirements
+    - Define & implement a proof-of-concept using an ETH RPC client & GCP
+
+- Looking into creating a testnet using substrate nodes with a myriad of required pallets (e.g., contracts)
+    - Using the substrate node template, update substrate node code w/ required pallets for WF network
